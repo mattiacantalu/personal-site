@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<h1>//Profile</h1>
+<xmp>
+  struct Profile {
+      static let summary = "My name is Mattia Cantalù and I come from Italy.
+          I attended the University of Modena \"E. Ferrari\"​, where I conferred a degree in Computer Engineering.
+          In 2011, I also studied at the University of Pisa, where I received a certificate as Apple iOS Developer.
+          I'm a iOS Developer at YOOX NET-A-PORTER Group, the global Internet retailing partner for leading fashion and luxury brands.
+          As a freelancer Apple iOS Developer, I've developed some personal, enterprise and commercial applications.
+          During my leasure time, I love travel all over the world. I've visited many cities but my favorites are NYC and London.
+          I consider myself an Apple addicted, MINI inside and a LEGO fan.
+          I speak Italian (mother-language) and English."
+
+      static let name = "Mattia Cantalu'"
+
+      static let location = CLLocation(latitude: 44.4796, longitude: 11.0375)
+
+      static let work = "iOS Developer @ YOOX NET-A-PORTER GROUP"
+
+      static let education = "Computer Engeneering @ University of Modena and Reggio Emilia"
+
+      static let languages = ["native": "Italian", "professional": "English"]
+
+      static let hobbies = ["technology", "travel", "apple", "lego", "mini", "running", "trekking"]
+
+      static let skills = ["swift", "objective-c", "mobile application", "iOS", "iOS development", "mobile devices", "macOS", "Xcode"]
+  }
+
+  extension Profile {
+      static func twitter() -> URL? {
+          return URL(string: "https://www.twitter.com/mattiacantalu")
+      }
+
+      static func linkedin() -> URL? {
+          return URL(string: "https://www.linkedin.com/in/mattiacantalu/")
+      }
+
+      static func github() -> URL? {
+          return URL(string: "https://github.com/mattiacantalu")
+      }
+
+      static func mail() -> URL? {
+          return URL(string: "mailto:immattia@icloud.com")
+      }
+  }
+</xmp>
+</html>
